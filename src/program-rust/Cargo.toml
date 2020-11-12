@@ -1,0 +1,28 @@
+# Note: This crate must be built using do.sh
+
+[package]
+authors = [
+  "Prince Sinha <sinhaprince013@gmail.com>",
+  "Ayush Kaul <ayushk.kaul3@gmail.com>",
+]
+description = "Gasless Network For Solana"
+edition = "2018"
+license = "Apache-2.0"
+name = "solgsn"
+repository = "https://github.com/princesinha19/solgsn"
+version = "0.0.1"
+
+[features]
+default = []
+exclude_entrypoint = []
+program = []
+
+[dependencies]
+borsh = "0.7.1"
+num-derive = "0.3"
+num-traits = "0.2"
+solana-program = "1.4.6"
+thiserror = "1.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
