@@ -19,7 +19,7 @@ Using this platform, One can pay transaction fee in other solana supported token
 5. Execute program: `npm run start`
 
 You will see output something like this:<br/><br/>
-<img src="https://cdn.discordapp.com/attachments/771687256703893526/776498884318855192/cli.png" height="400" width="700">
+<img src="https://cdn.discordapp.com/attachments/771687256703893526/776499272664350780/cli.png" height="400" width="700">
 
 # Exploring The Code
 
