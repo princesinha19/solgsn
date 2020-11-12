@@ -12,11 +12,10 @@ import {
   topup,
   submitTx,
   printState,
-  testTransfer,
 } from './index';
 
 async function main() {
-  console.log("Let's say hello to a Solana account...");
+  console.log("Let's execute a transaction using solana gas station...");
 
   // Establish connection to the cluster
   await establishConnection();
@@ -39,9 +38,7 @@ async function main() {
   // Print State
   await printState();
 
-  // await testTransfer();
-
-  console.log('Success');
+  console.log('Execution Successful 🎉');
 }
 
 main()
