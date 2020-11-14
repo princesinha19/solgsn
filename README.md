@@ -1,6 +1,6 @@
 # SolGSN: Solana Gas Station ⛽
-
-It is an Gas Station built on Solana and implemented using Rust.<br/>
+It is an Gas Station built on <img src="https://research.binance.com/static/images/projects/solana/logo.png" height="50" width="50">. 
+The smart contract program is written in Rust programming language.<br/>
 This platform/network will allow users to do gas-less transactions. This network will allow Dapps on Solana to pay the gas fee of their users. A single user can also use this network.
 Using this platform, One can pay transaction fee in other solana supported token as well. For eg. One can top-up account using USDC token instead of SOL.
 
@@ -9,6 +9,8 @@ Using this platform, One can pay transaction fee in other solana supported token
 - A relayer will be used to publish the signed transaction and, the executor on relayer will pay the fee. The execution and fee deduction will be done through smart contract only. The consumer/user will first top-up their account using SOL or any SLP token. On a successful transaction execution, the fee will get deducted from top-up credit and get added to the executor (fee-payer).
 - The executor can claim their earned fee anytime directly from the smart contract. We will include governance in future for changing fees etc.
 - Also, the Dapp & User can withdraw their topup anytime if they want. The topup credit will be associated with account. The amount will be stored in the program account or smart contract.
+
+**Note**: This project is developed during *Solana Wormhole Hackathon* in 15 days. It's a basic version of whole idea. Please have a look at [**Pitch Deck :notebook_with_decorative_cover:**](https://docs.google.com/presentation/d/14iBbXitBhS5vqem0ZE_9nsbn1lXT0uF9vwPMs_1PnJM/edit?usp=sharing) submitted for the hackathon.
 
 # Running Project Locally
 
