@@ -1,6 +1,5 @@
 # SolGSN: Solana Gas Station ⛽
-It is an Gas Station built on <img src="https://research.binance.com/static/images/projects/solana/logo.png" height="50" width="50">. 
-The smart contract program is written in Rust programming language.<br/>
+It is an Gas Station implementation for Solana blockchain. The smart contract program is written in Rust programming language.<br/>
 This platform/network will allow users to do gas-less transactions. This network will allow Dapps on Solana to pay the gas fee of their users. A single user can also use this network.
 Using this platform, One can pay transaction fee in other solana supported token as well. For eg. One can top-up account using USDC token instead of SOL.
 
