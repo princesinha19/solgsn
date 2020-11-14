@@ -1,15 +1,15 @@
-/// Instructions supported by the pooled loan.
+/// Instructions supported by the SolGSN.
 use solana_program::program_error::ProgramError;
 use std::mem::size_of;
 
-/// Inital values for Loan Pool
+/// Topup argument structure
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq)]
 pub struct TopupAgrs {
     pub amount: u64,
 }
 
-/// Inital values for Loan Pool
+/// Submit argument structure
 #[repr(C)]
 #[derive(Clone, Debug, PartialEq)]
 pub struct SubmitArgs {
